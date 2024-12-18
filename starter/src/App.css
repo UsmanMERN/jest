@@ -1,0 +1,12 @@
+#root {
+  min-height: 100vh; /* Ensure the root container fills the full viewport height */
+  display: flex; /* Use flexbox for consistent child alignment */
+  flex-direction: column; /* Stack children (e.g., header, main, footer) vertically */
+}
+
+main {
+  flex: 1 0 auto; /* Allow the main section to grow while keeping its height dynamic */
+  display: flex; /* Center its contents */
+  justify-content: center;
+  align-items: center;
+}
